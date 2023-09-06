@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+body {
+    background-color: #a2d1e9;
+}
+
+/* style.css */
+nav{
+    position: flex;
+    width: 100%;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav .navbar{
+    width: 90%;
+    background-size: 30px;
+    margin: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .navbar .logo a{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(46, 49, 210);
+    
+}
+nav .navbar .menu{
+    display: flex;
+    font-size: 40px;
+}
+nav .navbar .menu li{
+    margin: 0 15px;
+    list-style: none;
+}
+nav .navbar .menu li{
+    font-size: 18px;
+    font-size: 500;
+    color: rgb(37, 50, 50);
+}
+body {
+    background-color:F2E8C6
+    ;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+h2 {
+    color:#000000;
+    ;
+}
+h3 {
+    color: #000000;
+}
+h4 {
+    color: #3f76c7;
+}
+.home{
+    height: 80vh;
+    width: 100%;
+    background: url("Images/2.png") no-repeat;
+    border-radius: 12px;
+    background-position: right ;
+    background-size: contain ;
+    padding-top: -500;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .home-content{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text .text-one{
+    font-size: 25px;
+}
+.home .text .text-two{
+    font-size: 75px;
+    font-weight: 600;
+}
+.home .text .text-three{
+    font-size: 40px;
+}
+.home .text .text-four{
+    font-size: 23px;
+}
+.home .button{
+    margin: 14px 0;
+  }
+  .home .button button{
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 25px;
+
+    font-weight: 400;
+    background: #f0eeee;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+  }
+  .home .button button:hover{
+    border-color: #000102;
+    background-color: #FF6969;
+  }
+  
+nav{
+    position: flex;
+    width: 100%;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav .navbar{
+    width: 90%;
+    background-size: 30px;
+    margin: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .navbar .logo a{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(46, 49, 210);
+    
+}
+nav .navbar .menu{
+    display: flex;
+    font-size: 40px;
+}
+nav .navbar .menu li{
+    margin-top: -5px;
+    list-style: none;
+    font-size: 20px;
+    color: rgb(37, 50, 50);
+}
+.navbar .menu a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #0E2431;
+    padding: 6px 0;
+    transition: all 0.4s ease;
+  }
+  .navbar .menu a:hover{
+    color: #0156f5;
+  }
+  nav.sticky .menu a{
+    color: #FFF;
+  }
+  nav.sticky .menu a:hover{
+    color: #0E2431;
+  }
+  .navbar .media-icons a{
+    color: #000000;
+    font-size: 18px;
+    margin: 0 6px;
+  }
+  nav.sticky .media-icons a{
+    color: #FFF;
+  }
+  nav .menu-btn{
+    color: #4070f4;
+  }
+  nav.sticky .menu-btn{
+    color: #f30000;
+  }
+  .navbar .menu .menu-btn{
+    color: #f30000;
+  }
+  nav .menu-btn,
+.navbar .menu .cancel-btn{
+  position: absolute;
+  color: #fff;
+  right: 30px;
+  top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: none;
+}
+nav .menu-btn{
+  color: #4070f4;
+}
+nav.sticky .menu-btn{
+  color: #FFF;
+}
+.navbar .menu .menu-btn{
+  color: #fff;
+}
+section .content{
+  width: 80%;
+  margin: 40px auto;
+  font-family: 'Poppins', sans-serif;
+}
+.about .about-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+section .title span{
+  color: #0E2431;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 8px;
+}
+section .title span::before,
+section .title span::after{
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #4070f4;
+  left: 0;
+  bottom: 0;
+}
+section .title span::after{
+  bottom: -7px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.about .about-details .left{
+  width: 45%;
+}
+.about .left img{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.about-details .right{
+  width: 55%;
+}
+.about .mani{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+section  .topic{
+  color: #000102;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.about-details .right p{
+  text-align: justify;
+  color: #1d3433;
+}
+\\skills
+.skills{
+    background: #a2d1e9;
+  }
+  section .title span::before,
+section .title span::after{
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #4070f4;
+  left: 0;
+  bottom: 0;
+}
+section .title span::after{
+  bottom: -7px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.about .about-details .left{
+    width: 45%;
+  }
+  
+  .skills .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  .about-details .right{
+    width: 50%;
+  }
+  .about-details .right p{
+    text-align: justify;
+    color: #1d3433;
+  }
+
+ 
+
+ .services-details .boxes .per{
+   font-size: 60px;
+   color: #040202;
+ }
+ .services .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .services .boxes .box{
+    margin: 20px 0;
+    width: calc(100% / 3 - 30px);
+    text-align: center;
+    border-radius: 24px;
+    padding: 30px 20px;
+    background-color: #eb718e94;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.926);
+    cursor: default;
+    transition: all 0.4s ease;
+  }
+  .services .boxes .box:hover{
+    background: hsl(265, 87%, 45%);
+    color: #020000;
+  }
+  .services .box .per{
+    font-size: 60px;
+    color: #f70404;
+  }
+  .services .boxes .box .icon{
+    height: 50px;
+    width: 50px;
+    background: #addd0d;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: #af1a1a;
+    margin: 0 auto 10px auto;
+    transition: all 0.4s ease;
+  }
+  .boxes .box:hover .icon{
+    background-color: #fff;
+    color: #40f488;
+  }
+  .services .boxes .box:hover .topic,
+  .services .boxes .box:hover p{
+    color: #0E2431;
+    transition: all 0.4s ease;
+  }
+  .services .boxes .box:hover .topic,
+  .services .boxes .box:hover p{
+    color: #f8f7f7;
+  }
